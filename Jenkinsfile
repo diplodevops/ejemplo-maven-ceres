@@ -6,6 +6,13 @@ def jsonParse(def json) {
 pipeline {
     agent any
     stages {
+        stage("Alumnos nocturenos del git sin Gitflow"){
+            steps {
+                script {
+                sh "echo 'Wellcome students CERES!'"
+                }
+            }
+        }
         stage("Paso 1: Compliar"){
             steps {
                 script {
