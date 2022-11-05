@@ -9,7 +9,7 @@ pipeline {
         stage("Paso 1: Saludar"){
             steps {
                 script {
-                sh "echo 'Hello, World Webhook 3!'"
+                sh "echo 'Hello, World Webhook 4!'"
                 }
             }
         }
